@@ -6,6 +6,5 @@ set +o allexport
 npx --yes @backstage/create-app@latest 
 
 # Checkout https://backstage.io/docs/getting-started/ for starting the app by changing to the app directory and running the following command
-# cd my-app
-# yarn dev
-
+cd my-app
+yarn dev
