@@ -17,5 +17,4 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | b
 RUN export NODE_OPTIONS='--no-node-snapshot'
 #RUN npm install isolated-vm
 
-
 CMD ["bash"]
